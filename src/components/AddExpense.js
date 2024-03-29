@@ -8,6 +8,7 @@ const AddExpense = () => {
      <input placeholder='Enter Title ' id="name" type ="text"/>
      <input placeholder='Enter Amount ' id="name" type ="number"/>
      <button>Add</button>
+     <hr/>
     </div>
   )
 }

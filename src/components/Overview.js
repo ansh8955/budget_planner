@@ -6,6 +6,7 @@ const Overview = () => {
        <div>Budget:</div>
       <div>Remaining:</div>
       <div>Spent So Far:</div>
+      <hr/>
     </div>
   )
 }
