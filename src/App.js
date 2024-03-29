@@ -8,12 +8,12 @@ import { useState } from 'react';
 function App() {
 
   const [totalExpense, setTotalExpense] = useState(0);
-  const [expenseData, setexpenseData] = useState([]);
+  const [expenseData, setExpenseData] = useState([]);
   return (
    <div>
 <Overview  totalExpense={totalExpense}/>
 <ShowExpense expenseData = {expenseData}/>
-<AddExpense setexpenseData = {setexpenseData}/>
+<AddExpense setExpenseData = {setExpenseData}/>
 
    </div>
   );
