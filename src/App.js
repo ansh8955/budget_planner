@@ -13,7 +13,7 @@ function App() {
    <div>
 <Overview  totalExpense={totalExpense}/>
 <ShowExpense expenseData = {expenseData}/>
-<AddExpense setExpenseData = {setExpenseData}/>
+<AddExpense setTotalExpense = {setTotalExpense} setExpenseData = {setExpenseData}/>
 
    </div>
   );
